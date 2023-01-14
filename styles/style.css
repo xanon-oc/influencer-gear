@@ -1,0 +1,88 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 310px;
+}
+
+.nav-right .nav-links{
+    text-decoration: none;
+    margin-left: 34px;
+}
+
+.nav-section .nav-left p{
+    font-weight: 800;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.nav-links{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+/* Slide Area */
+
+.slid-area{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 132px;
+    gap: 260px;
+}
+
+.slide-title{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.slide-description{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A
+}
+
+.mart-section{
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+    padding: 43px;
+}
+
+.middle-section{
+    margin-top: 69px;
+}
+
+
+
+.slid-bg{
+    height: 475px;
+    width: 475px;
+    position: absolute;
+    opacity: 0.55;
+}
+
+.slid-img{
+    width: 440px;
+    height: 414px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.slide-btn{
+    border-style: none;
+    background: #E02C6D;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 41px;
+
+}
+
